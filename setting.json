@@ -1,0 +1,56 @@
+
+{
+    "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+    "workbench.sideBar.location": "right",
+    "tabnine.experimentalAutoImports": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.env.windows": {},
+    "cSpell.diagnosticLevel": "Hint",
+    "console-ninja.featureSet": "Community",
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.colorDecorators":true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#140a5f",
+        "activityBar.background": "#2e0b5e",
+        "activityBar.foreground": "#ddc4ff",
+        "activityBar.activeBorder": "#ffffff",
+        "activityBar.inactiveBackground": "#2e0b5e",
+        "activityBar.inactiveForeground": "#4e449f",
+        "activityBarBadge.background": "#000000",
+        "titleBar.activeBackground": "#2e0b5e"
+
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "emmet.triggerExpansionOnTab": true,
+"emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "razor": "html",
+    "plaintext": "jade"
+},
+"[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"explorer.confirmDelete": false,
+"editor.minimap.enabled": false
+}
+
