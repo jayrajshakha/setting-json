@@ -1,0 +1,44 @@
+
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+w",
+        "command": "extension.liveServer.goOnline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+l alt+o",
+        "command": "-extension.liveServer.goOnline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "workbench.action.chat.clear",
+        "when": "hasChatProvider && inChat"
+    },
+   
+    {
+        "key": "ctrl+l",
+        "command": "-notebook.centerActiveCell",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "expandLineSelection"
+    },
+    {
+        "key": "q o",
+        "command": "quokka.makeQuokkaFromExistingFile",
+        "when": "!quokka.isLiveShareClient && !terminalFocus"
+    },
+    {
+        "key": "ctrl+k q",
+        "command": "-quokka.makeQuokkaFromExistingFile",
+        "when": "!quokka.isLiveShareClient && !terminalFocus"
+    }
+]
